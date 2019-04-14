@@ -4,7 +4,7 @@ local SetCVar, GetCVarDefault = SetCVar, GetCVarDefault
 -- ui
 SetCVar('nameplateOverlaph', 0)  -- %
 SetCVar('nameplateOverlapV', 0)  -- %
-SetCVar('nameplateMotion', 1) 0=Overlapping 1=Stacking 2=Spreading
+SetCVar('nameplateMotion', 0) -- 0=Overlapping 1=Stacking 2=Spreading
 SetCVar('useUiScale', 1)
 SetCVar('uiScale', 0.7111)
 SetCVar('conversationMode', inline)
