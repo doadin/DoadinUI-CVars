@@ -2,7 +2,7 @@ local SetCVar, GetCVarDefault = SetCVar, GetCVarDefault
 
 -- cvars
 -- ui
-SetCVar('nameplateOverlaph', 2)  -- % 1.1=10% gap
+SetCVar('nameplateOverlapH', 2)  -- % 1.1=10% gap
 SetCVar('nameplateOverlapV', 2)  -- % 1.1=10% gap
 SetCVar('nameplateMotion', 1) -- 0=Overlapping 1=Stacking 2=Spreading
 SetCVar('useUiScale', 1)
@@ -46,6 +46,7 @@ SetCVar('gxMTOpaque', 1)
 SetCVar('gxMTDisable', 0)
 SetCVar('gxMTBeginDraw', 1)
 SetCVar('gxMTShadow', 1)
+SetCVar('gxMTAlphaM2', 1)
 SetCVar('SkyCloudLOD', 0)
 SetCVar('WeatherDensity', 0)
 SetCVar('UIFaster', 3)
@@ -55,7 +56,7 @@ SetCVar('checkAddonVersion', 0)
 SetCVar('gxWindow', 1)
 SetCVar('gxMaximize', 1)
 SetCVar('taintLog', 1)
-SetCVar('hwDetect', 1)
+SetCVar('hwDetect', 0)
 SetCVar('mouseSpeed', 1)
 SetCVar('gxCursor', 1)
 SetCVar('gxFixLag', 1)
