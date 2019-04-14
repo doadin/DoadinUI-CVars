@@ -1,5 +1,5 @@
 ## Interface: 80100
-## Title: DoadinCVars
+## Title: DoadinUI_CVars
 ## Notes: Set CVars for to Doadins liking
 ## Author: Doadin-Malorne
 ## Version: 1.0
