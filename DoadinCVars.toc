@@ -1,0 +1,6 @@
+## Interface: 80100
+## Title: DoadinCVars
+## Notes: Set CVars for to Doadins liking
+## Author: Doadin-Malorne
+## Version: 1.0
+cvars.lua
