@@ -1,7 +1,7 @@
 local SetCVar, GetCVarDefault = SetCVar, GetCVarDefault
 
-# cvars
-# ui
+-- cvars
+-- ui
 SetCVar('nameplateOverlaph', 0)  -- %
 SetCVar('nameplateOverlapV', 0)  -- %
 SetCVar('nameplateMotion', 1) 0=Overlapping 1=Stacking 2=Spreading
@@ -13,7 +13,7 @@ SetCVar('cameraDistanceMaxFactor', 1) -- camera total max = 60
 SetCVar('cameraDistanceMax', 60)
 SetCVar('consolidateBuffs', 0)
 
-# sound
+-- sound
 SetCVar('ChatMusicVolume', 0)
 SetCVar('ChatSoundVolume', 0)
 SetCVar('ChatAmbienceVolume', 0)
@@ -35,7 +35,7 @@ SetCVar('VoiceActivationSensitivity', 0.39999997615814)
 SetCVar('EnableMicrophone', 0)
 SetCVar('EnableVoiceChat', 1)
 
-# performance
+-- performance
 SetCVar('maxAnimThreads', 6)
 SetCVar('timingMethod', 0)
 SetCVar('processAffinityMask', 255) -- https://wowwiki.fandom.com/wiki/CVar_processAffinityMask
@@ -50,7 +50,7 @@ SetCVar('SkyCloudLOD', 0)
 SetCVar('WeatherDensity', 0)
 SetCVar('UIFaster', 3)
 
-# misc
+-- misc
 SetCVar('checkAddonVersion', 0)
 SetCVar('gxWindow', 1)
 SetCVar('gxMaximize', 1)
